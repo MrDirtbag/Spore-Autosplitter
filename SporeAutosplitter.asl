@@ -51,7 +51,7 @@ split
 	if (settings["Cell"] && current.Cell < old.Cell) {
 		return true;
 	}
-	if (settings["CreatureTribe"] && current.CreatureTribe < old.CreatureTribe) {
+	if (settings["Creature"] && current.Creature < old.Creature) {
 		return true;
 	}
 	if (settings["TribeCivSpace"] && current.TribeCivSpace < old.TribeCivSpace) {
